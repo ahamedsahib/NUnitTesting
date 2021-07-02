@@ -8,7 +8,7 @@ namespace NUnitTestingProgram
         {
             Console.WriteLine("Welcome To NUnit Testing Programs");
             Console.WriteLine("Choose the Program you want to run");
-            Console.WriteLine("1)Vending Machine\n2)DayofWeek\n3)TemperartureConversion\n4)MonthlyPayment\n5)Exit");
+            Console.WriteLine("1)Vending Machine\n2)DayofWeek\n3)TemperartureConversion\n4)MonthlyPayment\n5)SquareRoot\n6)Exit");
 
             Console.WriteLine("Enter The option");
 
@@ -25,6 +25,9 @@ namespace NUnitTestingProgram
                     break;
                 case 4:
                     MonthlyPayment.ReadInput();
+                    break;
+                case 5:
+                    SquareRoot.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
