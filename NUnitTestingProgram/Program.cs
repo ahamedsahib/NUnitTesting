@@ -7,6 +7,7 @@ namespace NUnitTestingProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To NUnit Testing Programs");
+            VendingMachine.ReadInput();
         }
     }
 }
