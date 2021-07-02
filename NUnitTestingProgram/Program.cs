@@ -8,7 +8,7 @@ namespace NUnitTestingProgram
         {
             Console.WriteLine("Welcome To NUnit Testing Programs");
             Console.WriteLine("Choose the Program you want to run");
-            Console.WriteLine("1)Vending Machine\n2)DayofWeek\n3)TemperartureConversion\n4)MonthlyPayment\n5)SquareRoot\n6)DecimalToBinary\n7)Exit");
+            Console.WriteLine("1)Vending Machine\n2)DayofWeek\n3)TemperartureConversion\n4)MonthlyPayment\n5)SquareRoot\n6)DecimalToBinary\n7)SwapNibbles\n8)Exit");
 
             Console.WriteLine("Enter The option");
 
@@ -31,6 +31,9 @@ namespace NUnitTestingProgram
                     break;
                 case 6:
                     DeciamalToBinary.ReadInput();
+                    break;
+                case 7:
+                   SwapNibbles.ReadInput();
                     break;
                 default:
                     Console.WriteLine("Enter the correct option");
